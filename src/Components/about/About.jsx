@@ -1,11 +1,13 @@
 const About = () => {
   return (
-       <input type="text" placeholder='Typing' />
-       <input type="text" placeholder='Typing' />
-       <input type="text" placeholder='Writing' />
-       <input type="text" placeholder='Typing' />
-       <input type="text" placeholder='Typing' />
-    )
-}
+    <div>
+      <input type="text" placeholder="Typing" />
+      <input type="text" placeholder="Typing" />
+      <input type="text" placeholder="Writing" />
+      <input type="text" placeholder="Typing" />
+      <input type="text" placeholder="Typing" />
+    </div>
+  );
+};
 
-export default  About
+export default About;
